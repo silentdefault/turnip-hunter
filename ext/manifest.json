@@ -1,0 +1,35 @@
+{
+  "name": "Turnip Hunter",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "For  always get the best profits with your Turnips",
+  "icons": {
+    "16": "icons/turnip.png",
+    "48": "icons/turnip.png",
+    "128": "icons/turnip.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "scripts": [
+      "src/bg/background.js"
+    ],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": "icons/turnip.png",
+    "default_title": "Turnip Hunter",
+    "default_popup": "src/browser_action/browser_action.html"
+  },
+  "permissions": [
+    "https://turnip.exchange/islands", "https://api.turnip.exchange/islands",
+    "activeTab", "declarativeContent"
+  ],
+  "content_scripts": [{
+    "matches": [
+      "https://turnip.exchange/*"
+    ],
+    "js": [
+      "src/inject/inject.js"
+    ]
+  }]
+}

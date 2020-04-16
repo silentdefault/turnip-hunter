@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<style type="text/css">
+  #mainPopup {
+    padding: 10px;
+    width: 200px;
+    font-family: Helvetica, Ubuntu, Arial, sans-serif;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+</style>
+<script src="browser_action.js" defer></script>
+<div id="mainPopup">
+  <h1 style="color: #56ff37;">Turnip Hunter!</h1>
+  <div>
+    Filter by (Sell/Buy)tag:<input id="tag" type="checkbox" />
+  </div>
+  <div>
+    <abbr title="to sell or buy">Sort min>MAX:<input id="buy" type="checkbox" /></abbr>
+  </div>
+  <div>
+    <abbr title="to look for good places">Only waiting&lt;100:<input id="queued" type="checkbox" /></abbr>
+  </div>
+  <div>
+    <abbr title="to show less things in the list">Show 10:<input id="watch" type="checkbox" /></abbr>
+  </div>
+  <!-- <div>
+    <abbr
+      title="only notify if the tab is not active and the offer has a queue less than 30,This takes into account if you are looking to buy or sell">Notify
+      me offers:<input id="notify" type="checkbox" /></abbr>
+  </div> -->
+</div>
