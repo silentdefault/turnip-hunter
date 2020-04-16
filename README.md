@@ -20,4 +20,10 @@ If you play Animal Crossing and use the page turnip.exchange, it deserves to hav
 2. Click on the extension button (the turnip)
 3. Filter what you want
 > ![Imgur](https://i.imgur.com/crlQ98W.png)
-4. The extension will load new islands data every 15seconds
+
+### things to consider
+* The extension will load new islands data every 15seconds
+* When you open chrome again it will warn you that it is not safe to have applications in developer mode, in the extensions section you can enable or disable the extension
+> ![Imgur](https://i.imgur.com/uLedjGa.png)
+
+> ![Imgur](https://i.imgur.com/zxRtAao.png)
