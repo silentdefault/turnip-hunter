@@ -13,7 +13,7 @@ If you play Animal Crossing and use the page turnip.exchange, it deserves to hav
 4. Click "Load unpacked" button
 > ![Imgur](https://1.imgur.com/mYToECr.png)
 5. Select the "ext" folder
-
+> ![Imgur](https://i.imgur.com/jwNvKyr.png)
 
 ### how to use
 1. Open [turnip.exchange](https://turnip.exchange/islands) on islands
